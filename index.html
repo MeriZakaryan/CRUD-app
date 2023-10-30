@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <div id="confirmation">
+            <p>This card will be deleted from the list.</p>
+            <div id="btn-bar">
+                <button>Delete</button>
+                <button>Cancel</button>
+            </div>
+        </div>
+        <h1>CRUD Application</h1>
+        <div id="input-bar">
+            <form action="" onsubmit='collectInfo(event)'>
+                <div class="group">
+                    <label for="" class="title">First Name</label>
+                    <input class="inp" type="text">
+                </div>
+                <div class="group">
+                    <label for="" class="title">Last Name</label>
+                    <input class="inp" type="text">
+                </div> 
+                <div class="group">
+                    <label for="" class="title">Roll No</label>
+                    <input class="inp" type="text">  
+                </div>
+                <button>Send</button>
+                <p id="massege">Fill all the fields</p>
+            </form>      
+        </div>
+        <table id="info-bar">
+            <thead>
+                <td>First Name</td>
+                <td>Last name</td>
+                <td>Roll No</td>
+                <td>Actions</td>
+            </thead>
+           <tbody></tbody>
+        </table>
+    </main>
+
+    <script src="crud.js"></script>
+</body>
+</html>

@@ -1,0 +1,192 @@
+body{
+    background-color: #282726;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    color: #ebe9e9;
+    font-family: Monospace;
+}
+
+#input-bar{
+    height: 280px;
+    width: 500px;
+    margin: 30px auto;
+    background-color:  #ebe9e9;
+    border: solid 1px #cdc9c9;
+    padding: 20px 15px;
+    border-radius: 8%;
+}
+
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+.group{ 
+    position: relative; 
+    margin-bottom: 35px; 
+}
+
+.inp{
+    width: 100%;
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    padding: 5px 5px 8px 0px;
+    width: 100%;
+    font-size: 17px;
+    background-color: #ebe9e9;
+    border-bottom: solid 1px #b6acac;
+}
+
+.title{
+    opacity: 0.5;
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    transition: all 0.2s ease;
+    font-size: 18px;
+    font-family: Monospace;
+}
+
+.float{
+    opacity: 1;
+    top: -8px;
+    font-size: 15px;
+    transition: all .3s ease;
+    font-weight: bold;
+    color: rgb(85, 85, 85);
+}
+
+#info-bar{
+    width: 500px;
+}
+table{
+    border-collapse: collapse;
+}
+#info-bar td{
+    font-size: 20px;
+    color: #ebe9e9;
+    font-family: Monospace;
+    text-align: center;
+}
+
+#info-bar tbody td{
+    font-size: 16px;
+    text-align: center;
+}
+
+#info-bar tbody tr{
+    margin-top: 40px;
+    background-color: #393737e6;
+    border-radius: 5%;
+}
+
+button {
+    width: 60px;
+    border-radius: 10%;
+    margin-top: 10px;
+    align-items: center;
+    appearance: none;
+    background-color: #dcdbdbf1;
+    border: 1.2px solid #dbdbdb;
+    border-radius: .375em;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+    box-sizing: border-box;
+    color: rgb(85, 85, 85);
+    font-family: Monospace;
+    cursor: pointer;
+    display: inline-flex;
+    font-size: 1rem;
+    height: 2.5em;
+    justify-content: center;
+    line-height: 1.5;
+    padding: calc(.5em - 1px) 1em;
+    position: relative;
+    text-align: center;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: top;
+    white-space: nowrap;
+}
+
+button:active {
+    border-color: #949090;
+    outline: 0;
+}
+
+button:focus {
+    border-color: rgb(118, 114, 114);
+    outline: 0;
+}
+
+button:hover {
+  border-color: #b5b5b5;
+}
+
+button:focus:not(:active) {
+  box-shadow: rgb(90, 85, 85) 0 0 0 .8px;
+}
+
+.edit{
+    margin-top: .8px;
+    width: 35px;
+    height: 25px;
+    font-size: 14px;
+    background-color: #b5b5b5;
+    color: #302e2e;
+}
+
+.remove{
+    margin-top: .8px;
+    width: 50px;
+    height: 25px;
+    font-size: 14px;
+    background-color: #9c8484;
+    border-radius: .250em;
+    color: #302e2e;
+}
+
+#confirmation{
+    width: 500px;
+    height: 50px;
+    background-color: rgb(193, 190, 190);
+    border: solid #b78b8be9;
+    border-radius: 5%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    z-index: 1;
+    position: fixed;
+    margin-top: -100px;
+    transition: .2s;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-family: Monospace;
+    font-size: 17px;
+}
+#btn-bar{
+    display: none;
+}
+#btn-bar :first-child{
+    background-color: #d59c9ce9;
+}
+
+#btn-bar button{
+    width: 60px;
+    height: 30px;
+    font-size: 15px;
+}
+
+#massege{
+    color: #9c8484;
+    display: none;
+}
